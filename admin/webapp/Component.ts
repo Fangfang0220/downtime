@@ -50,6 +50,15 @@ export default class Component extends UIComponent {
 		});
 		this.setModel(listInputModel, "listInputModel");
 
+		var systemInputModel = new JSONModel({
+			recipient: {
+				title       : "System99",
+				description : "SAP HANA",
+				Downtimes: "downtime1"
+			},
+		});
+		this.setModel(systemInputModel, "systemInputModel");
+
 		// create the views based on the url/hash
 		this.getRouter().initialize();
 	}
