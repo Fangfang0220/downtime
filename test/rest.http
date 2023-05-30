@@ -8,9 +8,9 @@ Content-Type: application/json
     "title": "system fifth downtime",
     "description": "this is another system downtime",
     "type": "OneTime",
-    "startsAt": "2023-05-03T00:00:00.000Z",
+    "startsAt": "2023-05-31T00:00:00.000Z",
     "endsAt": "2023-06-07T00:00:00.000Z",
-    "showFrom":"2023-05-03T00:00:00.000Z",
+    "showFrom":"2023-05-31T00:00:00.000Z",
     "showUntil": "2023-06-02T00:00:00.000Z",
     "system_ID": "8651431f-7acb-4934-97ab-42e90ee531f1"
 }
@@ -20,8 +20,8 @@ POST http://localhost:4004/admin/Systems
 Content-Type: application/json
 
 {
-    "title": "System 4",
-    "description": "The SAP HANA"
+    "title": "System 5",
+    "description": "The SAP BTP"
 }
 
 ###

@@ -7,8 +7,8 @@
                 <Label text="Description" />
                 <Input value="{listInputModel>/recipient/description}" width="400px" />
                 <Label text="System" />
-                <ComboBox width="400px" items="{systemInputModel>/recipient/}">
-                    <core:Item text="{systemInputModel>/recipient/title}" />
+                <ComboBox width="400px" items="{/Systems}">
+                    <core:Item text="{title}" />
                 </ComboBox>
                 <Label text="Type" />
                 <Input value="{listInputModel>/recipient/type}" showValueHelp="true" valueHelpRequest="handelTypeValueHelp" width="400px" />
